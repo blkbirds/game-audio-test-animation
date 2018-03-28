@@ -1,0 +1,110 @@
+body {
+  background: linear-gradient(45deg, #190422, #11152b);
+
+  color: #dddada;
+
+  font-family: helvetica;
+  font-weight: 100;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  height: 750px;
+
+  text-align: center;
+
+  /* background-color: #d9ffea; */
+}
+
+.content {
+  line-height: 670px;
+  vertical-align: middle;
+}
+
+#square {
+  background-color: transparent;
+
+  width: 7vw;
+  height: 7vw;
+
+  margin: 0 25px 0 0;
+
+  display: inline-block;
+  vertical-align: middle;
+
+  /* position: absolute; */
+  /* position: fixed; */
+
+  /* top: 50%;
+  left: 50%; */
+  /* transform: translate(-50%, -50%); */
+
+  border: 2px solid transparent;
+
+  border-image: linear-gradient(45deg, #cd9aff 50%, #52d2f4 100%);
+  /* border-radius: 50%; */
+  border-image-slice: 1;
+
+  box-shadow: -1px 5px 25px rgba(184, 184, 184, 0.2);
+
+  text-align: center;
+
+  /* float: left; */
+
+}
+
+/* #txt_icon { */
+  /* position: relative; */
+  /* top: 50%; */
+  /* bottom: 300%; */
+  /* transform: translateY(-50%); */
+  /* word-wrap: break-word; */
+  /* letter-spacing: 3px; */
+  /* font-size: 1.2vw; */
+/* TODO: set ICON to the center of the div box */
+/* TODO:create @media thingy that decreases top:41% when gets too small*/
+/* } */
+
+.main_text {
+  /* background-color: #9dd3ff; */
+  width: 50vw;
+  height: 7.2vw;
+
+  display: inline-block;
+
+  /* float: left; */
+
+  font-size: 2.2vw;
+
+  text-align: left;
+  line-height: 100px;
+  vertical-align: middle;
+
+  text-shadow: -1px 5px 25px rgba(184, 184, 184, 0.2);
+
+}
+
+h1 {
+  font-size: 1.3em;
+
+  font-weight: lighter;
+
+  margin: .9em 0px 0px 0px;
+
+  line-height: 0px;
+}
+
+p {
+  color: #cd9aff;
+
+  margin-top: 0px;
+
+  line-height: 2.7em;
+}
